@@ -1,0 +1,1 @@
+Main-Class: com.sync.certificate.synccertificatejob.SyncCertificateJobApplication

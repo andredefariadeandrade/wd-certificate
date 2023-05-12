@@ -1,0 +1,12 @@
+runtime: java
+env: flex
+service: service-certificate
+runtime_config:
+  operating_system: ubuntu18
+  runtime_version: 11
+handlers:
+  - url: /.*
+    script: ../../../target/sync-certificate-job-0.0.1-SNAPSHOT.jar
+
+manual_scaling:
+  instances: 1
