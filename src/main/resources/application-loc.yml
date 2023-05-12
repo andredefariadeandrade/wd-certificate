@@ -1,0 +1,25 @@
+basic-authentication:
+  username: ISU_API_Test
+  password: Wrh1-3rg7!
+service:
+  path-base:
+    workday: https://wd3-impl-services1.workday.com/ccx/service/customreport2/devoteam1/ISU_API_Test/
+    accounts-google: https://accounts.google.com/
+    google-apis: https://www.googleapis.com/gmail/v1/
+    gmail-google-apis: https://gmail.googleapis.com/gmail/v1/
+    api-uat-mulesoft-devoteam: https://api-uat-mulesoft.devoteam.com/uat-
+
+scheduled:
+    start-job-sync-certificate: 0 0/5 * * * * #five minute
+
+external-configuration:
+  email:
+    address: certifications@devoteam.com
+    password: 'smklvonlapgxujjl'
+    client-id: 900381662301-i2a4b4enck7m9r10839m3kjmmthkj2hn.apps.googleusercontent.com
+    client-secret: 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
+    refresh-token: 1//0hRYq-JHL8SaVCgYIARAAGBESNgF-L9Ir8z99_yorzjLFvbvYCCVcj4lXuDoU0a5VYq5BlYKFxrPVKmNFKDWs3f4VmJDzjNsXcQ
+    grant-type: refresh_token
+  mulesoft:
+    client-id: d45ea09590434d30a2b8acdc7560b570
+    client-secret: 0BbD9d98Dd654C98b955681d94F12DfF
